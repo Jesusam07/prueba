@@ -1,0 +1,272 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body{
+	background: url("images/back.jpg");
+}
+
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+.contenedor p {
+	margin-bottom:40px;
+}
+.conten {
+	margin: 50px 200px 50px 200px;
+
+
+}
+ 
+.imglogo{
+	width: 700px;
+	height: 200px;
+	display: block;
+    margin: -50px 0px 50px -50px;
+    border:none;
+    border-radius: 200px;
+    
+}
+
+.logo{
+	width: 400px;
+	height: 250px;
+	background: rgba(200, 200, 200, 0.3);
+	border-radius: 10px;
+}
+.fondo{
+	background: #0B2B3A;
+}
+
+.menu{
+	border-radius: 50px;
+	background: #0B2B3A;
+} 
+
+.menu {
+	list-style:none;
+}
+
+
+
+.menu > li {
+	float: left;
+
+}
+
+.menu li a img{
+	background: rgba(200, 200, 200, 0);
+	display:block;
+	border-radius: 50px;
+    }
+
+}
+
+.menu ul li{
+	display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    border:none;
+}
+
+.menu li a:hover {
+	background: rgba(200, 200, 200, 0);
+	text-align: 200px 0px 0px 0px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 1em #4567e2, 0 0 0.2em #4567e2;
+}
+
+.menu li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.menu li:hover > ul {
+	display:block;
+	background: rgba(200, 200, 200, 0);
+	text-align: 200px 0px 0px 0px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black, 0 0 1em #4567e2, 0 0 0.2em #4567e2;
+}
+
+.menu li ul li {
+	position:relative;
+}
+
+.menu li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+.main {
+	background: #f2f2f2;
+}
+
+.color {
+	background: #34495e;
+	color: #fff;
+}
+ 
+nav {
+	background:#3498db;
+	margin-bottom:10px;
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	transition: all ease .5s; 
+	box-shadow:5px 6px 3px rgba(0,0,0,.5);
+}
+ 
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+nav ul li {
+	float: left;
+}
+ 
+nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+nav ul li a:hover {
+	background:#2980b9;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+    left: 140px;
+    right: 150px;
+	max-width:950px;
+	width:100%;
+	box-shadow:0px 8px 6px rgba(0,0,0,.5);
+	margin-left: 50px;
+    margin-right: 20px;
+    border:none;
+}
+
+.menu-fixed ul li a{
+	padding:10px 15px;
+} 
+/*Agregamos margenes inferiores a los parrafos*/
+article{
+	margin:10px auto;
+	background: rgba(200, 200, 200, 0.8);
+	  border-radius: 100px;
+}
+article div{
+  padding: 10px;
+}
+article div h3{
+  padding: 10px;
+  text-align: 200px 0px 0px 0px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px white, 0 0 2em #FFFFFF, 0 0 0.9em #FFFFFF;
+}
+p{
+  text-align: 200px 0px 0px 0px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px white, 0 0 2em #FFFFFF, 0 0 0.9em #FFFFFF;
+}
+aside {
+	margin:10px auto;
+	width: 350px;
+	height: 170px;
+	background: rgba(200, 200, 200, 0.8);
+	  border-radius: 100px;
+
+}
+.ar{height: 600px;
+}
+.arti{padding: 50px;}
+.acerca{
+	margin:50px auto;
+	width: 1200px;
+	height: 700px;
+	background: rgba(200, 200, 200, 0.8);
+	  border-radius: 100px;
+}
+div h3{
+  padding: 10px;
+  text-align: 200px 0px 0px 0px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px white, 0 0 2em #FFFFFF, 0 0 0.9em #FFFFFF;
+}
+embed{
+	border-radius: 10px;
+}
+.trans{
+	  margin-top: 50px; 
+	  background: rgba(200, 200, 200, 0);
+	  border-top-right-radius: 100px
+	  border-bottom-left-radius: 100px;}
+footer {
+	background: #16a085;
+	color: #fff;
+}
+
+
+#tablero {
+  margin: 20px auto;
+  width: 640px;
+  text-align: center;
+}
+#titulo {
+  background: rgba(200, 200, 200, 0.3);	
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 2px 1px 2px white, 0 0 1em #4567e2, 0 0 0.2em #4567e2;
+  border-radius: 20px;
+}
+
+a{
+  text-align: center;
+  font-size: 70px;
+  text-shadow: .5px .5px 1px white, 0 0 1em #4567e2, 0 0 0.2em #4567e2;
+  border-radius: 20px;
+}
+
+
+.chose{
+	margin: 30px 165px 100px 150px; 
+}
+.mainrow{
+	background: rgba(200, 200, 200, 0.8);
+	width: 950px; 
+	height: 700px;
+	margin: 50px auto;
+	border-radius: 100px;
+} 
+.caja1{
+	width: 350px; 
+	height: 350px;
+	margin: 50px 100px 50px -100px;
+}
+.caja2{
+	padding: 100px;
+	margin-left: 100px;
+    margin-right: 20px;
+	margin: 300px 0px 0px 250px;
+}
+.imgcarta{
+	margin-left: 100px;
+    margin-right: 20px;
+	width: 350px;
+	height: 250px;
+    margin: -1100px 0px 0px 0px;
+    border-radius: 100px;
+
