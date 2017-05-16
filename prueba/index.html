@@ -1,0 +1,264 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>APP3 jQuery Mobile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="'viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
+	<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.main.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head> 
+<body>
+<div class="" data-role="page" id="home" >
+  <div class="fondo" data-role="header" >
+    <h1 class="fondo" id="titulo">JQuery Mobile </h1>
+  </div>
+    <br>
+  <center><a href="http://jquerymobile.com/"><img class="logo" src="images/jquerymobile.png"  width="200" height="200"></a></center>
+  <br>
+  <div class="fondo" data-role="content"> 
+  <nav class="menu">
+    <ul data-role="listview">
+      <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="#page2">PhoneGap</a></li>
+      <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="#page3">JQuery Mobile</a></li>
+      <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="#page4">Regístrate</a></li>
+      <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="#page5">Contactos</a></li>
+    </ul>
+    </nav>    
+  </div>
+    
+  <footer>  
+  <div class="fondo" data-role="footer" data-position="fixed" >
+    <div class="container-fluid" data-role="navbar">
+     <ul>
+       <li><a href="#page" data-role="button" data-icon="arrow-l">Atras</a></li>
+       <li><a href="#page" data-role="button" data-icon="home">Inicio</a></li>
+       <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+       <li><a href="#page2" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+     </ul>
+      </div>
+  </div>
+  </footer>
+</div>
+
+
+<!-- PHONEGAP -->
+<div data-role="page" id="page2">
+  <div data-role="header">
+    <h1 class="fondo" id="titulo">PhoneGap</h1>
+  </div>
+     <center><img src="images/phonegap-logo.png" width="200" height="200"></center>
+  <div data-role="collapsible-set">
+    <div data-role="collapsible">
+      <h3>Historia</h3>
+      <p align="justify">En el año 2009 una desconocida empresa llamada Nitobi crea un framework para desarrollo móvil multiplataforma llamado PhoneGap. La idea es la que ya todos conocemos: crear aplicaciones orientadas a móviles con HTML5 y dotarlas de una capa JavaScript que permita acceder a las funciones nativas de cada sistema, así como de un entorno de ejecución que permita ejecutarlas en cualquier sistema operativo móvil.</p>
+      </div>
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>¿Qué es PhoneGap?</h3>
+      <p align="justify">PhoneGap es un framework para el desarrollo de aplicaciones móviles producido por Nitobi, y comprado posteriormente por Adobe Systems.3 4 Principalmente, PhoneGap permite a los programadores desarrollar aplicaciones para dispositivos móviles utilizando herramientas genéricas tales como JavaScript, HTML5 y CSS3. Las aplicaciones resultantes son híbridas, es decir que no son realmente aplicaciones nativas al dispositivo (ya que el renderizado se realiza mediante vistas web y no con interfaces gráficas específicas de cada sistema), pero no se tratan tampoco de aplicaciones web (teniendo en cuenta que son aplicaciones que son empaquetadas para poder ser desplegadas en el dispositivo incluso trabajando con el API del sistema nativo).</p>
+      </div>
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>Características</h3>
+      <p>Las APIs que proporciona PhoneGap son: <br> <br> 
+- Acelerómetro <br> 
+- Cámara <br> 
+- Compás<br> 
+- Contactos<br> 
+- Sistema de Ficheros<br> 
+- Geolocalización<br> 
+- Media<br> 
+- Red<br> 
+- Notificaciones (alertas, sonido, vibración)<br> 
+- Almacenamiento  </p>
+      </div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+     <ul>
+       <li><a href="#home" data-role="button" data-icon="arrow-l">Atras</a></li>
+       <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+       <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+       <li><a href="#page3" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+     </ul>
+      </div>
+  </div>
+</div>
+
+
+
+
+ <!-- JQUERY MOBILE -->
+<div data-role="page" id="page3">
+  <div data-role="header">
+    <h1 class="fondo" id="titulo">JQuery Mobile</h1>
+  </div>
+        <center><img src="images/jquery-mobile-logo.png" width="400" height="200"></center>
+      <div  data-theme="b"> 
+          <div data-role="collapsible">
+            <h3>Historia</h3>
+            <p>Content</p>
+          </div>
+          <div data-role="collapsible" data-collapsed="true">
+            <h3>¿Qué es JQuery Mobile?</h3>
+            <p align="justify">JQuery Mobile es un Framework optimizado para dispositivos táctiles (también conocido como Framework móvil) que está siendo desarrollado actualmente por el equipo de proyectos de jQuery. El desarrollo se centra en la creación de un Framework compatible con la gran variedad de smartphones y tablets, algo necesario en el creciente y heterogéneo mercado de tablets y smartphones. El Framework de jQuery Mobile es compatible con otros frameworks móviles y plataformas como PhoneGap y Worklight entre otros.<br>
+Todos los proyectos que utilizan jQuery Mobile utilizan más o menos el mismo código. Es importante enlazar las librerías JavaScript de jQuery y jQuery Mobile, así como sus hojas de estilo (estos archivos pueden descargarse y utilizarse localmente, pero se recomienda enlazarlos desde el CDN de jQuery).  </p>
+          </div>
+          <div data-role="collapsible" data-collapsed="true">
+            <h3>Características</h3>
+            <p>Características de JQueryMobile <br>
+- Themes personalizados: El framework permite el uso de themes ya creados y da la posibilidad de crear nuevos themes y trabajar con ellos.<br>
+- Tamaño reducido: Toda la librería comprimida pesa menos de 12K.<br>
+- Facilidad de uso: Destaca la facilidad para el desarrollo de interfaces de usuario de dispositivos móviles.<br>
+- Múltiples plataformas: IOS, Android, Blackberry, Palm WebOS, Symbian, Windows Mobile, etc.<br>
+- Soporte HTML5: Como su nombre indica, soporta las nuevas etiquetas HTML5.</p>
+          </div>
+        </div>
+        
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+     <ul>
+       <li><a href="#page2" data-role="button" data-icon="arrow-l">Atras</a></li>
+       <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+       <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+       <li><a href="#page4" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+     </ul>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- REGISTRO -->
+<div data-role="page" id="page4">
+  <div data-role="header">
+    <h1 class="fondo" id="titulo">Regístrate</h1>
+  </div>
+    
+    <div data-role="content"><br>
+      <div data-role="fieldcontain">
+        <label for="textinput">Nombre:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="textinput2">Apellidos:</label>
+        <input type="text" name="textinput2" id="textinput2" value=""  />
+      </div>
+   <div data-role="fieldcontain">
+     <label for="slider">Edad:</label>
+     <input type="range" name="slider" id="slider" value="0" min="0" max="50" />
+   </div>
+   
+   <div data-role="fieldcontain">
+     <label for="selectmenu" class="select">Sexo:</label>
+     <select name="selectmenu" id="selectmenu">
+       <option value="option1">Femenino</option>
+       <option value="option2">Masculino</option>
+     </select>
+   </div>
+   <div data-role="fieldcontain">
+     <label for="textinput4">Email:</label>
+     <input type="text" name="textinput4" id="textinput4" value=""  />
+   </div>
+   
+ 
+<div data-role="fieldcontain">
+  <label for="textinput3">Fecha de nacimiento:</label>
+  <input type="text" name="textinput3" id="textinput3" value=""  />
+</div>
+
+
+<div data-role="fieldcontain">
+  <label for="textarea">Aficiones:</label>
+  <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+</div>
+
+
+   
+   <button data-icon="check" data-iconpos="bottom">Enviar</button>
+   <button data-icon="delete" data-iconpos="bottom">Cancelar</button>
+  
+  </div>
+    
+
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+     <ul>
+       <li><a href="#page3" data-role="button" data-icon="arrow-l">Atras</a></li>
+       <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+       <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+       <li><a href="#page5" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+     </ul>
+      </div>
+  </div>
+</div>
+
+
+<!-- CONTACTO -->
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1 class="fondo" id="titulo">Contactos</h1>
+  </div>
+  <center><img src="images/sop.png" width="127" height="150"></center>
+<ul data-role="listview" data-inset="true" data-filter="true" >
+  <li><a href="#">
+    <h3>Monica Olivarria</h3>
+    <p>Facultad de Informática Mazatlán </p>
+  </a><a href="#">Default</a></li>
+  <li><a href="#">
+    <h3>Rivera Avila Miguel Angel</h3>
+    <p>Facultad de Informática Mazatlán </p>
+  </a><a href="#">Default</a></li>
+  <li><a href="#">
+    <h3>Lopez Millan Debora Lizeth</h3>
+    <p>Facultad de Informática Mazatlán </p>
+  </a><a href="#">Default</a></li>
+  <li><a href="#">
+    <h3>Arellano Mendoza Jesus Manuel</h3>
+    <p>Facultad de Informática Mazatlán </p>
+  </a><a href="#">Default</a></li>
+  <li><a href="#">
+    <h3>Ortiz Garcia Jose Antonio</h3>
+    <p>Facultad de Informática Mazatlán </p>
+  </a><a href="#">Default</a></li>
+</ul>
+
+
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+     <ul>
+       <li><a href="#page4" data-role="button" data-icon="arrow-l">Atras</a></li>
+       <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+       <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+       <li><a href="#info" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+     </ul>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- INFO -->
+<div data-role="page" id="info" >
+  <div data-role="header" >
+    <h1 class="fondo" id="titulo">INFO</h1>
+  </div>
+  <div data-role="content">
+  <p>Esta aplicacion fue creada con html, CSS como hojas de estilos, en block de notas<br>
+  By Jesus Manuel Arellano Mendoza / Mayo de 2017
+   <br> 
+Docente Responsable: MC. Mónica Olivarría González </p>
+<center><a href="#home" data-role="button" data-icon="home" >Aceptar</a></center>
+ </div>
+ 
+</div>
+
+</body>
+</html>
